@@ -12,7 +12,7 @@ def show_response(clima):
     
     show_city["text"] = name_city
     show_desc["text"] = desc_city
-    show_temp["text"] = temp_city
+    show_temp["text"] = str(int(temp_city))+"C°"
 
 def weather(city):
     API_key = "190b7ee2e0fb21aa9d7edcfcb354c3f7"
